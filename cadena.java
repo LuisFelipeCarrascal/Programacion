@@ -9,6 +9,6 @@ public class cadena {
         String textoOriginal = "Hola";
         System.out.println("Antes de modificar: " + textoOriginal);
         modificarCadena(textoOriginal);
-        System.out.println("Después de modificar: " + textoOriginal);  // No cambia
+        System.out.println("Después de modificar: " + textoOriginal);  
     }
 }

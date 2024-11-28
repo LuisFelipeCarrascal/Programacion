@@ -1,0 +1,30 @@
++------------------+        +------------------+         +------------------+
+|      Libro       |        |     Categoria    |         |     Usuario      |
++------------------+        +------------------+         +------------------+
+| - titulo: String |        | - nombre: String |         | - id: String     |
+| - autor: String  |        | - descripcion: String |    | - nombre: String |
+| - isbn: String   |        +------------------+         | - direccion: String |
+| - fecha_pub: Date|         | + agregarLibro() |        | - telefono: String |
+| - disponibilidad: Boolean |  | + eliminarLibro() |     | - email: String  |
++------------------+         +------------------+         +------------------+
+| + consultarDisp()|        
+| + actualizarDisp()|        
++------------------+         
+        |  
+        |  
+        |  
+        |  
+        V 
++------------------+         +------------------+        
+|     Prestamo     |         |  Bibliotecario   |        
++------------------+         +------------------+        
+| - fecha_prestamo: Date |    | - id: String     |        
+| - fecha_devolucion: Date | | - nombre: String |        
+| - usuario: Usuario   |     | - empleado_id: String |
+| - libro: Libro       |     +------------------+        
++------------------+         | + agregarLibro() |        
+| + registrarDevolucion()|   | + eliminarLibro() |        
+| + consultarFechaDevol()|   | + modificarLibro() |        
++------------------+         | + registrarPrestamo() |
+                            | + registrarDevolucion() |
+                            +------------------+
