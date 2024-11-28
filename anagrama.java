@@ -1,5 +1,3 @@
-package Programacion;
-
 public class anagrama {
     public static void main(String[] args) {
         char[] palabra1 = {'a','m','o','r'};
